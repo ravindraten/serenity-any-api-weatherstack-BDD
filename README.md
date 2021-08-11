@@ -19,7 +19,7 @@ $ mvn clean install
 target/site/serenity/index.html
 ```
 ## How to write test cases
-> test classes will be written under below folder---
+> test classes are written under the below folder---
 > 
 >src/test/java/testcases
 >
@@ -28,14 +28,14 @@ target/site/serenity/index.html
 ```
 @RunWith(SerenityRunner.class)
 ```
-> Each test method would have below tage
+> Each test method would have below tag
 ```
 @Title("This is title visible as tile for for test")
    @Test
 ```
 >src/test/java/steps
 >package would have all the steps fore test methods
->and each would have below tag
+>and each would have a tag as below
 ```
 @Step("This step can be written in given when then format")
 ```
